@@ -1,0 +1,39 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    font-size: 3em;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+
+p {
+    font-family: 'Piazzolla', serif;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#content {
+    width: 60vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-left: #3b5bdb;
+}
+
+img {
+    transform: translateX(-6%);
+}
+
+a {
+    color: #3b5bdb;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  #5c7cfa;
+}
